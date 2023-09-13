@@ -1,8 +1,4 @@
-n1 = int(input('Digite o primeiro valor a ser lido: '))
-n2 = int(input('Digite o segundo valor a ser lido: '))
-n3 = int(input('Digite o terceiro valor a ser lido: '))
-n4 = int(input('Digite o quarto valor a ser lido: '))
-numeros = (n1, n2, n3, n4)
+numeros = (int(input('Digite um valor: ')), int(input('Digite um valor: ')), int(input('Digite um valor: ')), int(input('Digite um valor: ')))
 k9 = 0
 k = 0
 for i in range(0, len(numeros)):

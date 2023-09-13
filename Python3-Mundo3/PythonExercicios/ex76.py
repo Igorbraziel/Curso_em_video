@@ -1,5 +1,5 @@
 print('-' * 40)
-print('LISTAGEM DE PREÇOS')
+print(f'{"LISTA DE PRODUTOS":^40}')
 print('-' *  40)
 listagem = ('Computador', 5000, 
             'Notebook', 3000,
@@ -14,4 +14,5 @@ for i in range(0, len(listagem), 2):
         print('.', end = '')
         k += 1
     print('R$', end = ' ')
-    print(f'{listagem[i + 1]:.2f}')
+    print(f'{listagem[i + 1]:>7.2f}')
+print('-' *  40)
